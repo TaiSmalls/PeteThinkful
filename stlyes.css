@@ -1,6 +1,13 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+header {text-align: center;
+background-color: #eae2b7;}
+
+nav{
+  text-align: center;
+}
+
 .image-circle {
   border-radius: 50%; 
   property: 2px;
@@ -16,11 +23,12 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   background-color: #eae2b7;
+  text-align: center;
 }
 
 p{
 font size:18 px;
-text-align: left;
+text-align: center;
 }
 
 header{
@@ -28,31 +36,17 @@ text-align: center;
 }
 
 footer{
-  text-align: center;
+text-align: center;
 }
 
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1{
-  text-align: center;
+h1,
+h2,
+h3,
+h6 {
   font-family: "Playfair Display", Times, serif;
-  display: block;
-  margin: 0 auto;
-}
-
-h2{
   text-align: center;
-  font-family: "Playfair Display", Times, serif;
-  display: block;
-  margin: 0 auto;
-}
-
-
-h3 {
-  text-align: center;
-  font-family: "Playfair Display", Times, serif;
-  display: block;
-  margin: 0 auto;
 }
 
 article {
@@ -66,19 +60,47 @@ article div {
 
 p {
   line-height: 1.5;
-  align: left;
+  align: center;
 }
 
+
+
+li {
+  text-align: left;
+  padding: 0;
+   margin: 3;
+   display: list-item;
+}
+
+ol{
+  text-align: left;
+   display: list-item; 
+   padding: 0;
+   margin: 3;
+}
+
+ul{
+  text-align: left;
+  padding: 0;
+   margin: 3;
+   display: list-item;
+  
+}
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
   width: 600px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 hr {
@@ -91,6 +113,8 @@ a:hover{ color: #f77f00;
        text-decoration: underline;
        }
 
+section {padding: 50px 0;
+text-align: center;}
 
 /* Add your solution below */
 
